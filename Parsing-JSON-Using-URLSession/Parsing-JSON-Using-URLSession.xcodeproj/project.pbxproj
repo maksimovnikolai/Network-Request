@@ -14,6 +14,8 @@
 		ADC8D08C2B59210F00112718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC8D08B2B59210F00112718 /* Assets.xcassets */; };
 		ADC8D08F2B59210F00112718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC8D08D2B59210F00112718 /* LaunchScreen.storyboard */; };
 		ADC8D0AA2B592C2C00112718 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0A92B592C2C00112718 /* Station.swift */; };
+		ADC8D0AC2B592D4000112718 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0AB2B592D4000112718 /* Api.swift */; };
+		ADC8D0AF2B592F8F00112718 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0AE2B592F8F00112718 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		ADC8D0902B59210F00112718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADC8D09F2B592B4100112718 /* Parsing-JSON-Using-URLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parsing-JSON-Using-URLSessionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC8D0A92B592C2C00112718 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		ADC8D0AB2B592D4000112718 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		ADC8D0AE2B592F8F00112718 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,10 @@
 		ADC8D0812B59210E00112718 /* Parsing-JSON-Using-URLSession */ = {
 			isa = PBXGroup;
 			children = (
-				ADC8D0962B5923BC00112718 /* Secrets */,
-				ADC8D0A82B592C0E00112718 /* Model */,
 				ADC8D0972B59286B00112718 /* Application */,
+				ADC8D0962B5923BC00112718 /* Secrets */,
+				ADC8D0AD2B592EDE00112718 /* API */,
+				ADC8D0A82B592C0E00112718 /* Model */,
 				ADC8D09A2B59294500112718 /* Controllers */,
 				ADC8D0992B59289100112718 /* Storyboards */,
 				ADC8D0982B59287D00112718 /* Resources */,
@@ -91,6 +96,7 @@
 		ADC8D0962B5923BC00112718 /* Secrets */ = {
 			isa = PBXGroup;
 			children = (
+				ADC8D0AB2B592D4000112718 /* Api.swift */,
 			);
 			path = Secrets;
 			sourceTree = "<group>";
@@ -135,6 +141,14 @@
 				ADC8D0A92B592C2C00112718 /* Station.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ADC8D0AD2B592EDE00112718 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8D0AE2B592F8F00112718 /* APIClient.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +255,9 @@
 				ADC8D0872B59210E00112718 /* StationViewController.swift in Sources */,
 				ADC8D0832B59210E00112718 /* AppDelegate.swift in Sources */,
 				ADC8D0AA2B592C2C00112718 /* Station.swift in Sources */,
+				ADC8D0AC2B592D4000112718 /* Api.swift in Sources */,
 				ADC8D0852B59210E00112718 /* SceneDelegate.swift in Sources */,
+				ADC8D0AF2B592F8F00112718 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
