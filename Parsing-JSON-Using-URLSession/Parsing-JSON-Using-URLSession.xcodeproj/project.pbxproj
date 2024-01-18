@@ -16,10 +16,11 @@
 		ADC8D0AA2B592C2C00112718 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0A92B592C2C00112718 /* Station.swift */; };
 		ADC8D0AC2B592D4000112718 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0AB2B592D4000112718 /* Api.swift */; };
 		ADC8D0AF2B592F8F00112718 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0AE2B592F8F00112718 /* APIClient.swift */; };
+		ADC8D0B72B593BE900112718 /* Parsing_JSON_Using_URLSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0B62B593BE900112718 /* Parsing_JSON_Using_URLSessionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ADC8D0A32B592B4100112718 /* PBXContainerItemProxy */ = {
+		ADC8D0B82B593BE900112718 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADC8D0772B59210E00112718 /* Project object */;
 			proxyType = 1;
@@ -37,10 +38,11 @@
 		ADC8D08B2B59210F00112718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC8D08E2B59210F00112718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC8D0902B59210F00112718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADC8D09F2B592B4100112718 /* Parsing-JSON-Using-URLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parsing-JSON-Using-URLSessionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC8D0A92B592C2C00112718 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		ADC8D0AB2B592D4000112718 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		ADC8D0AE2B592F8F00112718 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		ADC8D0B42B593BE900112718 /* Parsing-JSON-Using-URLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parsing-JSON-Using-URLSessionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC8D0B62B593BE900112718 /* Parsing_JSON_Using_URLSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing_JSON_Using_URLSessionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADC8D09C2B592B4100112718 /* Frameworks */ = {
+		ADC8D0B12B593BE900112718 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				ADC8D0812B59210E00112718 /* Parsing-JSON-Using-URLSession */,
+				ADC8D0B52B593BE900112718 /* Parsing-JSON-Using-URLSessionTests */,
 				ADC8D0802B59210E00112718 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				ADC8D07F2B59210E00112718 /* Parsing-JSON-Using-URLSession.app */,
-				ADC8D09F2B592B4100112718 /* Parsing-JSON-Using-URLSessionTests.xctest */,
+				ADC8D0B42B593BE900112718 /* Parsing-JSON-Using-URLSessionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +154,14 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		ADC8D0B52B593BE900112718 /* Parsing-JSON-Using-URLSessionTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8D0B62B593BE900112718 /* Parsing_JSON_Using_URLSessionTests.swift */,
+			);
+			path = "Parsing-JSON-Using-URLSessionTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,22 +182,22 @@
 			productReference = ADC8D07F2B59210E00112718 /* Parsing-JSON-Using-URLSession.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ADC8D09E2B592B4100112718 /* Parsing-JSON-Using-URLSessionTests */ = {
+		ADC8D0B32B593BE900112718 /* Parsing-JSON-Using-URLSessionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADC8D0A52B592B4100112718 /* Build configuration list for PBXNativeTarget "Parsing-JSON-Using-URLSessionTests" */;
+			buildConfigurationList = ADC8D0BA2B593BE900112718 /* Build configuration list for PBXNativeTarget "Parsing-JSON-Using-URLSessionTests" */;
 			buildPhases = (
-				ADC8D09B2B592B4100112718 /* Sources */,
-				ADC8D09C2B592B4100112718 /* Frameworks */,
-				ADC8D09D2B592B4100112718 /* Resources */,
+				ADC8D0B02B593BE900112718 /* Sources */,
+				ADC8D0B12B593BE900112718 /* Frameworks */,
+				ADC8D0B22B593BE900112718 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ADC8D0A42B592B4100112718 /* PBXTargetDependency */,
+				ADC8D0B92B593BE900112718 /* PBXTargetDependency */,
 			);
 			name = "Parsing-JSON-Using-URLSessionTests";
 			productName = "Parsing-JSON-Using-URLSessionTests";
-			productReference = ADC8D09F2B592B4100112718 /* Parsing-JSON-Using-URLSessionTests.xctest */;
+			productReference = ADC8D0B42B593BE900112718 /* Parsing-JSON-Using-URLSessionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +213,7 @@
 					ADC8D07E2B59210E00112718 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					ADC8D09E2B592B4100112718 = {
+					ADC8D0B32B593BE900112718 = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = ADC8D07E2B59210E00112718;
 					};
@@ -222,7 +233,7 @@
 			projectRoot = "";
 			targets = (
 				ADC8D07E2B59210E00112718 /* Parsing-JSON-Using-URLSession */,
-				ADC8D09E2B592B4100112718 /* Parsing-JSON-Using-URLSessionTests */,
+				ADC8D0B32B593BE900112718 /* Parsing-JSON-Using-URLSessionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +249,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADC8D09D2B592B4100112718 /* Resources */ = {
+		ADC8D0B22B593BE900112718 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,20 +272,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADC8D09B2B592B4100112718 /* Sources */ = {
+		ADC8D0B02B593BE900112718 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC8D0B72B593BE900112718 /* Parsing_JSON_Using_URLSessionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ADC8D0A42B592B4100112718 /* PBXTargetDependency */ = {
+		ADC8D0B92B593BE900112718 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ADC8D07E2B59210E00112718 /* Parsing-JSON-Using-URLSession */;
-			targetProxy = ADC8D0A32B592B4100112718 /* PBXContainerItemProxy */;
+			targetProxy = ADC8D0B82B593BE900112718 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -466,7 +478,7 @@
 			};
 			name = Release;
 		};
-		ADC8D0A62B592B4100112718 /* Debug */ = {
+		ADC8D0BB2B593BE900112718 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,7 +495,7 @@
 			};
 			name = Debug;
 		};
-		ADC8D0A72B592B4100112718 /* Release */ = {
+		ADC8D0BC2B593BE900112718 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,11 +533,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADC8D0A52B592B4100112718 /* Build configuration list for PBXNativeTarget "Parsing-JSON-Using-URLSessionTests" */ = {
+		ADC8D0BA2B593BE900112718 /* Build configuration list for PBXNativeTarget "Parsing-JSON-Using-URLSessionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADC8D0A62B592B4100112718 /* Debug */,
-				ADC8D0A72B592B4100112718 /* Release */,
+				ADC8D0BB2B593BE900112718 /* Debug */,
+				ADC8D0BC2B593BE900112718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
