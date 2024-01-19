@@ -16,7 +16,18 @@
 		ADC8D0E32B5ABD0E00112718 /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0E22B5ABD0E00112718 /* President.swift */; };
 		ADC8D0E92B5ABE6200112718 /* presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = ADC8D0E82B5ABE6200112718 /* presidents.json */; };
 		ADC8D0EB2B5ABF2100112718 /* Bundle+ParsingJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0EA2B5ABF2100112718 /* Bundle+ParsingJSON.swift */; };
+		ADC8D0F32B5AC1CA00112718 /* Parsing_JSON_USING_BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8D0F22B5AC1CA00112718 /* Parsing_JSON_USING_BundleTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADC8D0F42B5AC1CA00112718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC8D0BE2B5ABC2600112718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC8D0C52B5ABC2600112718;
+			remoteInfo = "Parsing-JSON-USING-Bundle";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ADC8D0C62B5ABC2600112718 /* Parsing-JSON-USING-Bundle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parsing-JSON-USING-Bundle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +41,19 @@
 		ADC8D0E22B5ABD0E00112718 /* President.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = President.swift; sourceTree = "<group>"; };
 		ADC8D0E82B5ABE6200112718 /* presidents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = presidents.json; sourceTree = "<group>"; };
 		ADC8D0EA2B5ABF2100112718 /* Bundle+ParsingJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ParsingJSON.swift"; sourceTree = "<group>"; };
+		ADC8D0F02B5AC1CA00112718 /* Parsing-JSON-USING-BundleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parsing-JSON-USING-BundleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC8D0F22B5AC1CA00112718 /* Parsing_JSON_USING_BundleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing_JSON_USING_BundleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ADC8D0C32B5ABC2600112718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8D0ED2B5AC1CA00112718 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				ADC8D0C82B5ABC2600112718 /* Parsing-JSON-USING-Bundle */,
+				ADC8D0F12B5AC1CA00112718 /* Parsing-JSON-USING-BundleTests */,
 				ADC8D0C72B5ABC2600112718 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				ADC8D0C62B5ABC2600112718 /* Parsing-JSON-USING-Bundle.app */,
+				ADC8D0F02B5AC1CA00112718 /* Parsing-JSON-USING-BundleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +138,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		ADC8D0F12B5AC1CA00112718 /* Parsing-JSON-USING-BundleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8D0F22B5AC1CA00112718 /* Parsing_JSON_USING_BundleTests.swift */,
+			);
+			path = "Parsing-JSON-USING-BundleTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +166,24 @@
 			productReference = ADC8D0C62B5ABC2600112718 /* Parsing-JSON-USING-Bundle.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ADC8D0EF2B5AC1CA00112718 /* Parsing-JSON-USING-BundleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC8D0F62B5AC1CA00112718 /* Build configuration list for PBXNativeTarget "Parsing-JSON-USING-BundleTests" */;
+			buildPhases = (
+				ADC8D0EC2B5AC1CA00112718 /* Sources */,
+				ADC8D0ED2B5AC1CA00112718 /* Frameworks */,
+				ADC8D0EE2B5AC1CA00112718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC8D0F52B5AC1CA00112718 /* PBXTargetDependency */,
+			);
+			name = "Parsing-JSON-USING-BundleTests";
+			productName = "Parsing-JSON-USING-BundleTests";
+			productReference = ADC8D0F02B5AC1CA00112718 /* Parsing-JSON-USING-BundleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,6 +196,10 @@
 				TargetAttributes = {
 					ADC8D0C52B5ABC2600112718 = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					ADC8D0EF2B5AC1CA00112718 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ADC8D0C52B5ABC2600112718;
 					};
 				};
 			};
@@ -165,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				ADC8D0C52B5ABC2600112718 /* Parsing-JSON-USING-Bundle */,
+				ADC8D0EF2B5AC1CA00112718 /* Parsing-JSON-USING-BundleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +231,13 @@
 				ADC8D0D62B5ABC2700112718 /* LaunchScreen.storyboard in Resources */,
 				ADC8D0D32B5ABC2700112718 /* Assets.xcassets in Resources */,
 				ADC8D0D12B5ABC2600112718 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8D0EE2B5AC1CA00112718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +256,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADC8D0EC2B5AC1CA00112718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8D0F32B5AC1CA00112718 /* Parsing_JSON_USING_BundleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADC8D0F52B5AC1CA00112718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC8D0C52B5ABC2600112718 /* Parsing-JSON-USING-Bundle */;
+			targetProxy = ADC8D0F42B5AC1CA00112718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ADC8D0CF2B5ABC2600112718 /* Main.storyboard */ = {
@@ -386,6 +462,40 @@
 			};
 			name = Release;
 		};
+		ADC8D0F72B5AC1CA00112718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.maksimovnick.Parsing-JSON-USING-BundleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing-JSON-USING-Bundle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parsing-JSON-USING-Bundle";
+			};
+			name = Debug;
+		};
+		ADC8D0F82B5AC1CA00112718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.maksimovnick.Parsing-JSON-USING-BundleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsing-JSON-USING-Bundle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Parsing-JSON-USING-Bundle";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,6 +513,15 @@
 			buildConfigurations = (
 				ADC8D0DB2B5ABC2700112718 /* Debug */,
 				ADC8D0DC2B5ABC2700112718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC8D0F62B5AC1CA00112718 /* Build configuration list for PBXNativeTarget "Parsing-JSON-USING-BundleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC8D0F72B5AC1CA00112718 /* Debug */,
+				ADC8D0F82B5AC1CA00112718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
